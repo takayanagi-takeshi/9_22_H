@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+/* スマホ */
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 80%;
+  margin: auto;
+}
+
+.box {
+  box-sizing: border-box;
+  width: 100%;
+  border: 1px solid black;
+  margin-bottom: 5px;
+  background-color: red;
+}
+
+.box:nth-of-type(even) {
+  background-color: grey;
+}
+
+
+/* タブレット */
+@media screen and (min-width: 768px) {
+  .box {
+    width: 45%;
+    background-color: blue;
+  }
+}
+
+/* パソコン */
+@media screen and (min-width: 1024px) {
+  .box {
+    width: 20%;
+    background-color: green;
+  }
+}

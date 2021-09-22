@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+* {
+  box-sizing: border-box;
+}
+
+button {
+  width: 25%;
+  height: 50px;
+  text-align: right;
+  background-color: darkgrey;
+}
+
+input {
+  width: 100%;
+  font-size: 18px;
+  text-align: right;
+  height: 42px;
+}
+
+.block {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.equal {
+  width: 50%;
+  height: 50px;
+  background-color: darkorange;
+}
+
+.kigou {
+  background-color: darkorange;
+}
+
